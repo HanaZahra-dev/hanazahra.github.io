@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Hanazahra</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Efek hover untuk card proyek */
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body class="bg-pink-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-pink-300 text-white p-6 text-center">
+    <h1 class="text-4xl font-bold">Hanazahra</h1>
+    <p class="mt-2 text-lg">Data Enthusiast | Coding & Database Lover</p>
+  </header>
+
+  <!-- About Me -->
+  <section class="max-w-3xl mx-auto p-6">
+    <h2 class="text-2xl font-semibold mb-3">Tentang Aku</h2>
+    <p>
+      Halo! Aku Hanazahra, tertarik di bidang <strong>data science</strong>, 
+      <strong>analisis data</strong>, pengolahan data, dan <strong>pembuatan database</strong>. 
+      Aku suka belajar coding dasar dan mengembangkan proyek yang berkaitan dengan data.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="bg-pink-100 p-6">
+    <h2 class="text-2xl font-semibold mb-3 text-center">Keahlian</h2>
+    <div class="flex flex-wrap justify-center gap-4">
+      <span class="bg-pink-300 text-white px-4 py-2 rounded-full">Python</span>
+      <span class="bg-pink-300 text-white px-4 py-2 rounded-full">PHP</span>
+      <span class="bg-pink-300 text-white px-4 py-2 rounded-full">HTML</span>
+      <span class="bg-pink-300 text-white px-4 py-2 rounded-full">Tailwind CSS</span>
+      <span class="bg-pink-300 text-white px-4 py-2 rounded-full">Database / MySQL</span>
+      <span class="bg-pink-300 text-white px-4 py-2 rounded-full">Excel</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="max-w-4xl mx-auto p-6">
+    <h2 class="text-2xl font-semibold mb-3 text-center">Proyek</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded shadow project-card">
+        <h3 class="font-bold text-lg mb-2">Website Edukasi</h3>
+        <p class="mb-2">HTML, PHP, Tailwind CSS. Website sederhana untuk edukasi inklusif.</p>
+        <a href="https://github.com/username/project1" class="text-pink-500 hover:underline">Lihat Repo</a>
+      </div>
+      <div class="bg-white p-6 rounded shadow project-card">
+        <h3 class="font-bold text-lg mb-2">Analisis Data Rumah Sakit</h3>
+        <p class="mb-2">Python & Excel. Analisis data numerik rumah sakit dan visualisasi sederhana.</p>
+        <a href="https://github.com/username/project2" class="text-pink-500 hover:underline">Lihat Repo</a>
+      </div>
+      <div class="bg-white p-6 rounded shadow project-card">
+        <h3 class="font-bold text-lg mb-2">Database Management</h3>
+        <p class="mb-2">MySQL & PHP. Proyek membuat database rumah sakit 3NF dengan 8 tabel.</p>
+        <a href="https://github.com/username/project3" class="text-pink-500 hover:underline">Lihat Repo</a>
+      </div>
+      <div class="bg-white p-6 rounded shadow project-card">
+        <h3 class="font-bold text-lg mb-2">Mini Python Project</h3>
+        <p class="mb-2">Python. Proyek sederhana untuk latihan analisis data numerik.</p>
+        <a href="https://github.com/username/project4" class="text-pink-500 hover:underline">Lihat Repo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-pink-100 p-6 text-center">
+    <h2 class="text-2xl font-semibold mb-3">Kontak</h2>
+    <p>Email: <a href="mailto:hanazahra@example.com" class="text-pink-500 hover:underline">hanazahra@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/hanazahra" class="text-pink-500 hover:underline">linkedin.com/in/hanazahra</a></p>
+    <p>GitHub: <a href="https://github.com/hanazahra" class="text-pink-500 hover:underline">github.com/hanazahra</a></p>
+  </section>
+
+  <footer class="text-center p-4 text-gray-600">
+    &copy; 2026 Hanazahra. All rights reserved.
+  </footer>
+
+</body>
+</html>
